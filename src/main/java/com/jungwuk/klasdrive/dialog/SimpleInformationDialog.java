@@ -1,4 +1,4 @@
-package com.jungwuk.klasuploader.dialog;
+package com.jungwuk.klasdrive.dialog;
 
 import javax.swing.*;
 import java.awt.*;

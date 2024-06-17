@@ -1,9 +1,9 @@
-package com.jungwuk.klasuploader.utils;
+package com.jungwuk.klasdrive.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.jungwuk.klasuploader.ApiManager;
-import com.jungwuk.klasuploader.dialog.SimpleInformationDialog;
+import com.jungwuk.klasdrive.ApiManager;
+import com.jungwuk.klasdrive.dialog.SimpleInformationDialog;
 
 import java.awt.*;
 import java.io.*;

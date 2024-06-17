@@ -1,8 +1,8 @@
-package com.jungwuk.klasuploader.controller;
+package com.jungwuk.klasdrive.controller;
 
-import com.jungwuk.klasuploader.dialog.SimpleInformationDialog;
-import com.jungwuk.klasuploader.utils.KlasDownloadManager;
-import com.jungwuk.klasuploader.view.MainView;
+import com.jungwuk.klasdrive.dialog.SimpleInformationDialog;
+import com.jungwuk.klasdrive.utils.KlasDownloadManager;
+import com.jungwuk.klasdrive.view.MainView;
 
 import javax.swing.*;
 import java.awt.*;

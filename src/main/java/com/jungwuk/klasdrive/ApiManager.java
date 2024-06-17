@@ -1,11 +1,9 @@
-package com.jungwuk.klasuploader;
+package com.jungwuk.klasdrive;
 
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.security.*;
 import java.security.interfaces.RSAPublicKey;
-import java.security.spec.*;
 import java.util.*;
 import javax.crypto.*;
 

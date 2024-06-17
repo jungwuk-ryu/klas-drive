@@ -1,9 +1,9 @@
-package com.jungwuk.klasuploader.controller;
+package com.jungwuk.klasdrive.controller;
 
 import com.google.gson.Gson;
-import com.jungwuk.klasuploader.ApiManager;
-import com.jungwuk.klasuploader.view.LoginView;
-import com.jungwuk.klasuploader.view.MainView;
+import com.jungwuk.klasdrive.ApiManager;
+import com.jungwuk.klasdrive.view.LoginView;
+import com.jungwuk.klasdrive.view.MainView;
 
 import javax.swing.*;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.jungwuk.klasuploader.view;
+package com.jungwuk.klasdrive.view;
 
 import lombok.Getter;
 

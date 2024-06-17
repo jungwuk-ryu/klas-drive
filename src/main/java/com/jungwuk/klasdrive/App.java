@@ -1,9 +1,9 @@
-package com.jungwuk.klasuploader;
+package com.jungwuk.klasdrive;
 
 import com.formdev.flatlaf.FlatLightLaf;
 import com.formdev.flatlaf.themes.FlatMacDarkLaf;
-import com.jungwuk.klasuploader.controller.LoginViewController;
-import com.jungwuk.klasuploader.view.LoginView;
+import com.jungwuk.klasdrive.controller.LoginViewController;
+import com.jungwuk.klasdrive.view.LoginView;
 
 import javax.swing.*;
 import java.awt.*;
