@@ -22,12 +22,12 @@ public class LoginViewController {
 
     private void initComponents() {
         JButton loginButton = view.getLoginButton();
-        loginButton.addActionListener(_ -> {
+        loginButton.addActionListener(e -> {
             loginButton.setEnabled(false);
 
             login();
         });
-        view.getPasswordField().addActionListener(_ -> login());
+        view.getPasswordField().addActionListener(e -> login());
     }
 
     private void login() {

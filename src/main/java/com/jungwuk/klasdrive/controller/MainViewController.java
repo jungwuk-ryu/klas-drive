@@ -38,7 +38,7 @@ public class MainViewController {
         fileList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         fileList.addMouseListener(new MouseAdapter() {
 
-            private static void setSelected(MouseEvent e) {
+            private void setSelected(MouseEvent e) {
                 JList list = (JList) e.getSource();
                 int index = list.locationToIndex(e.getPoint());
                 if (list.getSelectedIndex() != index) {
@@ -135,7 +135,7 @@ public class MainViewController {
     private void initUploadButton() {
         var uploadBtn = view.getUploadButton();
 
-        uploadBtn.addActionListener(_ -> {
+        uploadBtn.addActionListener(e -> {
             JFileChooser fileChooser = new JFileChooser();
             int result = fileChooser.showOpenDialog(null);
 
